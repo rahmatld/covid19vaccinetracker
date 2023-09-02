@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+:root {
+  --primaryTextColor: #232e35;
+  --secondaryTextColor: #656d72;
+  --borderColor: #f1f1f1;
+  --lineColor: #d9d9d9;
+  --primaryBackgroundColor: #fff;
+  --secondaryBackgroundColor: #fbfbfb;
+  --thirdBackgroundColor: #f5f3fe;
+  --primaryIconColor: #7e74f1;
+  --primaryIconColorHover: #5d51e8;
+  --sectionPadding: 6rem 0;
+  --itemBorderRadius: 0.7rem;
+}
+
+@media screen and (max-width: 1000px) {
+  /* Perubahan untuk ukuran layar <= 1000px */
+  p {
+    font-size: 0.9rem;
+    line-height: 2.4rem;
+  }
+  .grid-3 {
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 825px) {
+  h1 {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  main {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 7px;
+  }
+
+  header {
+    font-size: 16px; /* Ubah ukuran font */
+    padding: 15px; /* Kurangi padding */
+  }
+}
+
+@media screen and (max-width: 640px) {
+  /* Perubahan untuk ukuran layar <= 640px jika diperlukan */
+}

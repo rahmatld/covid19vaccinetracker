@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+:root {
+  --primaryTextColor: #232e35;
+  --secondaryTextColor: #656d72;
+  --borderColor: #f1f1f1;
+  --lineColor: #d9d9d9;
+  --primaryBackgroundColor: #fff;
+  --secondaryBackgroundColor: #fbfbfb;
+  --thirdBackgroundColor: #f5f3fe;
+  --primaryIconColor: #7e74f1;
+  --primaryIconColorHover: #5d51e8;
+  --sectionPadding: 2rem;
+  --itemBorderRadius: 0.7rem;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--primaryBackgroundColor);
+  color: var(--primaryTextColor);
+}
+
+header {
+  text-align: center;
+  padding: var(
+    --sectionPadding
+  ); /* Sesuaikan dengan ukuran yang Anda inginkan */
+  background-color: var(--primaryIconColor);
+  color: white;
+  height: 50px; /* Sesuaikan dengan tinggi yang Anda inginkan */
+  font-size: 18px; /* Sesuaikan dengan ukuran font yang Anda inginkan */
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: var(--sectionPadding);
+}
+
+.project {
+  display: flex;
+  flex-wrap: wrap; /* Menangani perubahan ukuran layar kecil */
+  margin-bottom: 2rem;
+}
+
+.project-content {
+  flex: 1;
+  text-align: center;
+}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 0;
+}
+p {
+  text-align: justify;
+}
+
+a {
+  color: var(--primaryIconColorHover);
+  font-size: 1.1rem;
+}
