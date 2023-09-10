@@ -42,6 +42,17 @@
     font-size: 16px; /* Ubah ukuran font */
     padding: 15px; /* Kurangi padding */
   }
+  .project-item p {
+    margin-left: 10px; /* Atur margin kiri */
+    margin-right: 10px; /* Atur margin kanan */
+    line-height: 1.4;
+  }
+  .pembukaan {
+    margin-left: 10px; /* Atur margin kiri */
+    margin-right: 10px; /* Atur margin kanan */
+    text-align: justify;
+    line-height: 1.4;
+  }
 }
 
 @media screen and (max-width: 640px) {
